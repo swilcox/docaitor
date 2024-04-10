@@ -1,0 +1,6 @@
+{% for skill_category in skills %}
+<h2>{{ skill_category }}</h2>
+{% for skill in skills[skill_category] %}
+<li>{{ skill }}</li>
+{% endfor %}
+{% endfor %}

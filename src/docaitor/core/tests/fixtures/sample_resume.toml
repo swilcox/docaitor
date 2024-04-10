@@ -1,0 +1,24 @@
+[[education]]
+degree = "Bachelor of Science, Computer Science"
+school = "University Name, City, Country"
+dates = "September 2018 - May 2022"
+gpa = "3.5/4.0"
+
+[[experience]]
+title = "Software Engineer Intern"
+company = "Company Name, City, Country"
+dates = "June 2020 - August 2020"
+details = [
+    "Developed a web application using Python and Flask",
+    "Implemented RESTful API for data access",
+    "Collaborated with designers to improve user experience",
+]
+
+[skills]
+programming_languages = ["Python", "JavaScript", "Rust"]
+frameworks = ["Flask", "Django", "React"]
+tools = ["Git", "Docker", "PostgreSQL"]
+
+overview = """A detail-oriented and motivated software engineer with a passion for building high-quality applications.
+Experienced in Python, JavaScript, and other web development technologies. Seeking a full-time position to utilize my skills
+and contribute to the success of a company."""
