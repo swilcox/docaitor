@@ -2,7 +2,7 @@ import jinja2
 from typing import IO
 
 
-class HTMLGenerator:
+class OutputGenerator:
     def __init__(
         self, data: dict, template_file: str, template_dir: str, output_stream: IO
     ):

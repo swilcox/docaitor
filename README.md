@@ -7,7 +7,7 @@ Turn data into html and/or pdf documents and optionally transform that data usin
 ## Usage
 
 ```shell
-docaitor generate pdf -i my_input_data.toml -t my_template.html -o my.pdf
+docaitor generate -i my_input_data.toml -t my_template.html -o my.pdf
 ```
 ## Developing
 

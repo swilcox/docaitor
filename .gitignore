@@ -10,3 +10,10 @@ wheels/
 .venv
 
 .python-version
+
+# tmp dir
+tmp/
+
+# test files
+test.html
+*.log

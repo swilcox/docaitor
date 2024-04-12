@@ -1,12 +1,12 @@
 from pathlib import Path
 from io import StringIO
-from ..html_generator import HTMLGenerator
+from ..output_generator import OutputGenerator
 
 
 CURRENT_PATH = Path(__file__).parent
 
 
-def test_html_generator():
+def test_output_generator():
     # set data / context
     # set template directory
     # generate
@@ -31,7 +31,7 @@ def test_html_generator():
 
 """
     f = StringIO("")
-    hg = HTMLGenerator(
+    hg = OutputGenerator(
         context, "simple_template.html", CURRENT_PATH / "fixtures" / "templates", f
     )
     hg.generate()
